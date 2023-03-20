@@ -5,7 +5,9 @@ cwd = os.getcwd()
 def is_zh (c):
         x = ord (c)
         # Punct & Radicals
-        if x >= 0x2e80 and x <= 0x33ff:
+        if x >= 0x2e80 and x <= 0x3040:
+                return True
+        elif x >= 0x31ff and x <= 0x33ff:
                 return True
         # Fullwidth Latin Characters
         elif x >= 0xff00 and x <= 0xffef:
@@ -66,7 +68,7 @@ with open(cwd+"\\tst.txt","r", encoding='UTF-8') as file:
                     c='.'
                 if newrow != '' and newrow[-1] != ' ':
                     newrow=newrow +' '
-                newrow=newrow + c+' '
+                newrow=newrow + c +' '
             else:
                 newrow=newrow + c
         outfile.write(newrow)

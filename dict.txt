@@ -1,2 +1,2 @@
-b	p	m	f	d	t	n	l	g	k	h	j	ch	sh	z	ts	s	zhh	chh	shh	r	w	y	v	a	e	o	yu
-a	ar	ai	ao	an	o	or	ou	on	e	ɛ	ei	en	er	i	ia	io	ee	ie	iu	in	u	ua	uu	ui	uo	un	yu	ya	yo
+k	g	s	z	t	d	n	h	b	p	m	y	r	w
+a	i	u	e	o									
